@@ -38,3 +38,15 @@ print(middleCharIndex)
 print(name[middleCharIndex])
 print(name[-2])
 
+
+for i in range(0, len(name)+1):
+    print(name[0:i])
+
+# slicing and dicing
+
+print(name[0:6])
+
+# Searching
+
+print("Biv" in name)
+print("y" not in name)
