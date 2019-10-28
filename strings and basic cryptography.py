@@ -50,3 +50,11 @@ print(name[0:6])
 
 print("Biv" in name)
 print("y" not in name)
+
+# Character functions
+# All characters have a value, a numeric value
+
+print(ord('a'))
+print(chr(104))
+print(chr(75))
+print(ord())
