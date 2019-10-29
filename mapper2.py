@@ -34,3 +34,4 @@ print(indexToLetter(-24))
 from crypto import *
 
 print(scramble2Encrypt("THE MEETING IS AT 5 OCLOCK"))
+print(scramble2Decrypt("H ETN SA TEOLCTEMEIGI TFV COK"))
