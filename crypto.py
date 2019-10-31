@@ -76,5 +76,16 @@ def ceasar(word):
         encrypt += alphabet[nextIndex]
     return encryptMessage()
 
-print(ceasar("how was your day?"))
-print(ceasar("that is great!"))
+print(ceasar("hello"))
+print(ceasar("My name is Brooklyn"))
+
+def decrypt(encrypt):
+    decrypt = ""
+    for ch in encrypt:
+        Letters = alphabet.find(ch)
+        pastLetter = (Letters -3) % 26
+        decrypt += alphabet[pastLetter]
+    return decrypt
+
+print(decrypt(" h b"))
+
