@@ -47,3 +47,34 @@ def caesarEncrypt():
     if "c" :print("g")
 
 print(caesarEncrypt())
+
+def ceasarCipher(val):
+    input("Message:")
+    Encryption = ""
+    for E in val:
+        num = ord(E)
+
+        if num == 122:
+            newnum = 97
+        elif num == 90:
+            newnum = 65
+        else:
+            newnum = + 1
+        Encryption = Encryption + chr(newnum)
+    return Encryption
+
+print(ceasarCipher('10'))
+
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+def ceasar(word):
+    encrypt = ""
+    for ch in word:
+        index = alphabet.find(ch)
+        nextIndex = (index + 3) % 26
+        encrypt += alphabet[nextIndex]
+    return encryptMessage()
+
+print(ceasar("how was your day?"))
+print(ceasar("that is great!"))
