@@ -38,16 +38,12 @@ def encryptMessage():
 print(encryptMessage())
 
 
-def caeserEncrypt():
+def caesarEncrypt():
     input("message")
     if "a" :print("a")
-    else:
-        if "b" :print("f")
-        else:
-            if "c" :print("e")
-            else:
-                if "b" :print("f")
-                else:
-                    if "c" :print("g")
+    if "b" :print("f")
+    if "c" :print("e")
+    if "b" :print("f")
+    if "c" :print("g")
 
-                    print(caesarEncrypt())
+print(caesarEncrypt())
