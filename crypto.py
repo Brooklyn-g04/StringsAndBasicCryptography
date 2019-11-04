@@ -72,7 +72,7 @@ def ceasar(word):
     encrypt = ""
     for ch in word:
         index = alphabet.find(ch)
-        nextIndex = (index + 3) % 26
+        nextIndex = (index + 3) % 27
         encrypt += alphabet[nextIndex]
     return encryptMessage()
 
@@ -81,9 +81,10 @@ print(ceasar("My name is Brooklyn"))
 
 def decrypt(encrypt):
     decrypt = ""
+
     for ch in encrypt:
         Letters = alphabet.find(ch)
-        pastLetter = (Letters -3) % 26
+        pastLetter = (Letters -3) % 27
         decrypt += alphabet[pastLetter]
     return decrypt
 

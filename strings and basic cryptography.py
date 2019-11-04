@@ -24,6 +24,24 @@ def rowYourBoat():
     print("Merrily,"*4)
     print("Life is but a dream")
 
+
+# String Methods to investigate:
+    # Method        Use Example         Explanation
+    # center        aStr.center(w)      Find the center of whatever you put into the parenthesis with the (w) being a word or phrase
+    # ljust         aStr.ljust(w)       returns the string left justified in a string of length width and if the string is less than lens the original string will return
+    # rjust         aStr.rjust(w)       returns the right string justified of length width and if width is less than lens than the original string will return
+    # upper         aStr.upper()        it returns the upper cased string from the given string, it turns all of the lower case characters to uppercase
+    # lower         aStr.lower()        it changes all of the uppercase characters to lowercase
+    # index         aStr.index(item)    it searches for the given element from the beginning of the list to the return where the element appears in the lowest index
+    # rindex        aStr.rindex(item)   it returns the last index where the substring is found or puts in an exception is no index exists.
+    # find          aStr.find(item)     it returns the lowest index of the substring an dif substring is not given it returns -1
+    # rfind         aStr.rfind(item)    it returns the highest index of the substring and if not given it returns -1
+    # replace       aStr.replace(old, new)  it returns the copy of the string where all of the substring is replaced with another substring
+
+    # Be sure to include multiple examples of all of them in use
+
+# Character functions
+
 rowYourBoat()
 
 # Indexing
